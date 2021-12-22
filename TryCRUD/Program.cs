@@ -99,16 +99,6 @@ namespace TryCRUD
                     while (rdr.Read())
                     {
                         Console.WriteLine("{0,-5} {1,-20} {2,-5:N1}", rdr[0], rdr[1], rdr[2]);
-                        
-                        /*
-                        Country country = new Country()
-                        {
-                            Id = Convert.ToInt32(rdr[0]),
-                            Name = Convert.ToString(rdr[1]),
-                            Active = Convert.ToBoolean(rdr[2])
-                        };
-                        Console.WriteLine("{0,-5} {1,-20} {2,-5:N1}", country.Id, country.Name, country.Active);
-                        */
                     }
                 }
             }
